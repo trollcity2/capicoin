@@ -6,11 +6,20 @@ body {
     margin: 0;
 }
 
-nav {
+.navbar {
+    background-color: #1a1a1a;
+    padding: 10px 20px;
+}
+
+.container {
     display: flex;
     justify-content: space-between;
-    padding: 10px 20px;
-    background-color: #1a1a1a;
+    align-items: center;
+}
+
+.flex-1 {
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -19,13 +28,23 @@ nav {
     border-radius: 50%;
 }
 
-.icon {
-    width: 30px;
-    height: 30px;
+.menu {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
 }
 
-main {
+.menu li {
+    font-size: 24px;
+}
+
+.hero {
     padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 h1 {
@@ -34,7 +53,7 @@ h1 {
     margin: 20px 0;
 }
 
-p {
+h2 {
     font-size: 24px;
     margin: 10px 0;
 }
@@ -44,4 +63,41 @@ p {
     margin-top: 20px;
     width: 300px;
     height: auto;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.link {
+    color: #f7b530;
+    font-size: 24px;
+    text-decoration: none;
+}
+
+.btn {
+    background-color: #f7b530;
+    border: none;
+    padding: 10px 20px;
+    font-size: 24px;
+    border-radius: 10px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.btn a {
+    color: #2d2d2d;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #1a1a1a;
+    padding: 20px;
+    color: #f7b530;
+}
+
+footer p {
+    margin: 5px 0;
 }
